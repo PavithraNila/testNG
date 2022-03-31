@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="9" total="11" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8542" started-at="2022-03-31T11:30:36Z" finished-at="2022-03-31T11:30:45Z">
+    <groups>
+      <group name="sanity">
+        <method signature="MobileValidation.close()[pri:1, instance:com.flipkart.stepDefinition.MobileValidation@239963d8]" name="close" class="com.flipkart.stepDefinition.MobileValidation"/>
+        <method signature="MobileValidation.search()[pri:2, instance:com.flipkart.stepDefinition.MobileValidation@239963d8]" name="search" class="com.flipkart.stepDefinition.MobileValidation"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="8542" started-at="2022-03-31T11:30:36Z" finished-at="2022-03-31T11:30:45Z">
+      <class name="com.flipkart.stepDefinition.MobileValidation">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.flipkart.stepDefinition.MobileValidation@239963d8]" name="BeforeClass" is-config="true" duration-ms="7441" started-at="2022-03-31T11:30:36Z" finished-at="2022-03-31T11:30:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="close()[pri:1, instance:com.flipkart.stepDefinition.MobileValidation@239963d8]" name="close" duration-ms="143" started-at="2022-03-31T11:30:44Z" finished-at="2022-03-31T11:30:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="search()[pri:2, instance:com.flipkart.stepDefinition.MobileValidation@239963d8]" name="search" duration-ms="241" started-at="2022-03-31T11:30:44Z" finished-at="2022-03-31T11:30:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.flipkart.stepDefinition.MobileValidation@239963d8]" name="AfterClass" is-config="true" duration-ms="687" started-at="2022-03-31T11:30:44Z" finished-at="2022-03-31T11:30:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- com.flipkart.stepDefinition.MobileValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
